@@ -1,32 +1,37 @@
 {
   "name": "icalendar",
   "version": "0.7.1",
-  "author": "James Emerton <james@tri-tech.com>",
   "description": "RFC5545 iCalendar parser/generator",
   "keywords": [
     "icalendar",
     "rfc5545"
   ],
-  "directories": {
-    "lib": "lib"
-  },
-  "main": "lib/index",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-jasmine-node": "~0.2.1",
-    "jasmine-node": "~1.14.5"
+  "homepage": "https://github.com/mandryllo/node-icalendar#readme",
+  "bugs": {
+    "url": "https://github.com/tritech/node-icalendar/issues"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/tritech/node-icalendar.git"
   },
-  "dependencies": {
-    "readable-stream": "~1.1.0"
-  },
-  "engines": {
-    "node": ">= 0.10"
+  "license": "MIT",
+  "author": "James Emerton <james@tri-tech.com>",
+  "main": "lib/index",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
     "test": "jasmine-node spec"
+  },
+  "dependencies": {
+    "readable-stream": "~1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jasmine-node": "~0.2.1",
+    "jasmine-node": "~1.14.5"
+  },
+  "engines": {
+    "node": ">= 0.10"
   }
 }
